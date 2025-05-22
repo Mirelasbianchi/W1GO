@@ -1,0 +1,87 @@
+/* src/pages/Funcionalidades.css */
+
+.func-container {
+  background-color: #241e2b;
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #eee3c9;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.header h2 {
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.welcome {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.icons-grid {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icon-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.icon-btn span {
+  margin-top: 5px;
+}
+
+.yellow {
+  background-color: #d9a300;
+}
+
+.orange {
+  background-color: #d17c27;
+}
+
+.bottom-buttons {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.consultor, .financeiro {
+  background-color: #eee3c9;
+  color: black;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
