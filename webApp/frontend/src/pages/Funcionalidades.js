@@ -38,7 +38,7 @@ const Funcionalidades = () => {
           <FaUser size={30} />
           <span>Meu perfil</span>
         </div>
-        <div className="icon-btn yellow" onClick={() => navigate('/dashboard')}>
+        <div className="icon-btn yellow" onClick={() => navigate('/dashboards')}>
           <FaChartLine size={30} />
           <span>Dashboard</span>
         </div>
