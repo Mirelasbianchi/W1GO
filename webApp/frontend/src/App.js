@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Funcionalidades from './pages/Funcionalidades';
 import TokensAfetivos from './pages/TokensAfetivos';
 import Dashboards from './pages/Dashboards';
+import CriarHolding from './pages/CriarHolding';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/funcionalidades" element={<Funcionalidades />} />
         <Route path="/tokens-afetivos" element={<TokensAfetivos />} />
         <Route path="/dashboards" element={<Dashboards />} />
+        <Route path="/criar-holding" element={<CriarHolding />} />
       </Routes>
     </BrowserRouter>
   );
