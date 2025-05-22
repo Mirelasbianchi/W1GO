@@ -1,4 +1,4 @@
-# Hackathon - Aplicação W1 GO 
+# Hackathon - WebApp W1 GO 
 
 <img src='/webApp/frontend/src/assets/logo.png' alt='logo'>
 
