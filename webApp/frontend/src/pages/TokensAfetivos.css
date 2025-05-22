@@ -1,0 +1,106 @@
+.tokens-container {
+  background-color: #f3e7c7;
+  height: 100vh;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #24202E;
+  color: #f3e7c7;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #f3e7c7;
+}
+
+.content {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.highlight {
+  color: #c4701e;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtext {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.btn-secondary, .btn-primary {
+  border: 2px solid #c4701e;
+  background: none;
+  color: #c4701e;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #c4701e;
+  color: white;
+  width: 80%;
+}
+
+.patrimonios {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.item {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.instituto-card {
+  background: #fff;
+  border: 1px solid #c4701e;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.instituto-info {
+  display: inline-block;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+
+.contribuicao {
+  margin: 1rem 0;
+  font-weight: bold;
+}

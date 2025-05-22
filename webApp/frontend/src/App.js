@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login'; 
 import Funcionalidades from './pages/Funcionalidades';
+import TokensAfetivos from './pages/TokensAfetivos';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/funcionalidades" element={<Funcionalidades />} />
+        <Route path="/tokens-afetivos" element={<TokensAfetivos />} />
       </Routes>
     </BrowserRouter>
   );

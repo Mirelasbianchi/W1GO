@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 import logo2 from '../assets/logo2.png';
-import medal from '../assets/medal.png'; // Supondo que você tenha esse ícone
+import medal from '../assets/medal.png'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
