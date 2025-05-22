@@ -1,0 +1,92 @@
+/* frontend/src/pages/Login.css */
+
+.login-container {
+  height: 100vh;
+  width: auto;
+  background-color: #231e26;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-header {
+  background-color: #d9a300;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-header h2 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+  color: black;
+}
+
+.login-content {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.login-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.login-content input {
+  width: 90%;
+  background-color: #f0e9cf;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 90%;
+  margin: auto;
+  background-color: #d9a300;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.login-footer {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding: 10px;
+  margin: auto;
+}
+
+.medal {
+  width: 120px;
+  height: auto;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 5px;
+  padding-left: 0%;
+}
+
+.num1 {
+  font-size: 30px;
+}
