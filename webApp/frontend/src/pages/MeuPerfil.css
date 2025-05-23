@@ -1,0 +1,93 @@
+.perfil-container {
+  background-color: #f2e6c9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.perfil-header {
+  background-color: #d4a800;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #000;
+}
+
+.perfil-header h2 {
+  font-size: 1.5rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.perfil-info {
+  padding: 1.2rem;
+  margin-top: 40px;
+}
+
+.perfil-avatar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar-circle {
+  font-size: 3rem;
+}
+
+.perfil-dados p {
+  margin: 2px 0;
+  font-size: 0.95rem;
+}
+
+.linha-tempo {
+  padding: 1rem;
+}
+
+.linha-tempo h3 {
+  color: #3f0071;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.linha-etapas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.etapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.etapa span {
+  font-weight: bold;
+  color: #3f0071;
+}
+
+.bolinha {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3f0071;
+  margin-top: 0.3rem;
+}
+
+.etapa.ativa .bolinha {
+  background-color: #d49100;
+}
+
+.descricao-etapas {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  padding-left: 1rem;
+}

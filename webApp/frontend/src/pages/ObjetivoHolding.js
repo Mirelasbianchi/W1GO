@@ -26,7 +26,7 @@ const ObjetivoHolding = () => {
   return (
     <div className="objetivo-container">
       <div className="objetivo-header">
-        <button className="back-btn" onClick={() => navigate(-1)}><FiArrowLeft /></button>
+        <button className="back-btn" onClick={() => navigate('/criar-holding')}><FiArrowLeft /></button>
         <h2>Objetivo</h2>
       </div>
 

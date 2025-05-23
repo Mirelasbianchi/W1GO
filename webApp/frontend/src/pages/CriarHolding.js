@@ -11,7 +11,7 @@ const CriarHolding = () => {
   return (
     <div className="holding-container">
       <div className="holding-header">
-        <button className="back-btn" onClick={() => navigate(-1)}><FiArrowLeft /></button>
+        <button className="back-btn" onClick={() => navigate('/funcionalidades')}><FiArrowLeft /></button>
         <h2>Crie sua holding</h2>
       </div>
 
