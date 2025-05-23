@@ -9,6 +9,7 @@ import Dashboards from './pages/Dashboards';
 import CriarHolding from './pages/CriarHolding';
 import ObjetivoHolding from './pages/ObjetivoHolding';
 import MeuPerfil from './pages/MeuPerfil';
+import Consultor from './pages/Consultor';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/criar-holding" element={<CriarHolding />} />
         <Route path='/objetivo-holding' element={<ObjetivoHolding />} />
         <Route path='/meu-perfil' element={<MeuPerfil />} />
+        <Route path='/consultor' element={<Consultor />} />
       </Routes>
     </BrowserRouter>
   );
