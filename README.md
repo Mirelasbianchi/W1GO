@@ -1,6 +1,6 @@
 # Hackathon - WebApp W1 GO 
 
-<img src='/webApp/frontend/src/assets/logo.png' alt='logo'>
+<img src='/webApp/frontend/src/assets/W1 GO.png' alt='logo'>
 
 ## 👩‍🎓 Integrantes:
 - <a href=https://www.linkedin.com/in/heloisa-cavalcanti-oliveira>Heloisa Cavalcanti Oliveira</a>
