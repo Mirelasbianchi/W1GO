@@ -7,6 +7,7 @@ import Funcionalidades from './pages/Funcionalidades';
 import TokensAfetivos from './pages/TokensAfetivos';
 import Dashboards from './pages/Dashboards';
 import CriarHolding from './pages/CriarHolding';
+import ObjetivoHolding from './pages/ObjetivoHolding';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/tokens-afetivos" element={<TokensAfetivos />} />
         <Route path="/dashboards" element={<Dashboards />} />
         <Route path="/criar-holding" element={<CriarHolding />} />
+        <Route path='/objetivo-holding' element={<ObjetivoHolding />} />
       </Routes>
     </BrowserRouter>
   );

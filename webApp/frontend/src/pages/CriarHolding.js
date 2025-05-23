@@ -21,7 +21,7 @@ const CriarHolding = () => {
         <div className="step-wrapper">
           <div className="step">
             <span className="label">Objetivo da holding</span>
-            <div className="circle yellow">
+            <div className="circle yellow" onClick={() => navigate('/objetivo-holding')}>
               <FaBullseye size={30} />
             </div>
           </div>
