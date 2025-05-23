@@ -6,6 +6,10 @@ import Login from './pages/Login';
 import Funcionalidades from './pages/Funcionalidades';
 import TokensAfetivos from './pages/TokensAfetivos';
 import Dashboards from './pages/Dashboards';
+import CriarHolding from './pages/CriarHolding';
+import ObjetivoHolding from './pages/ObjetivoHolding';
+import MeuPerfil from './pages/MeuPerfil';
+import Consultor from './pages/Consultor';
 
 const App = () => {
   return (
@@ -16,6 +20,10 @@ const App = () => {
         <Route path="/funcionalidades" element={<Funcionalidades />} />
         <Route path="/tokens-afetivos" element={<TokensAfetivos />} />
         <Route path="/dashboards" element={<Dashboards />} />
+        <Route path="/criar-holding" element={<CriarHolding />} />
+        <Route path='/objetivo-holding' element={<ObjetivoHolding />} />
+        <Route path='/meu-perfil' element={<MeuPerfil />} />
+        <Route path='/consultor' element={<Consultor />} />
       </Routes>
     </BrowserRouter>
   );

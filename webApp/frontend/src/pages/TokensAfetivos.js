@@ -15,7 +15,7 @@ const TokensAfetivos = () => {
   return (
     <div className="tokens-container">
       <div className="header">
-        <button className="back-btn" onClick={() => navigate(-1)}><FiArrowLeft /></button>
+        <button className="back-btn" onClick={() => navigate('/funcionalidades')}><FiArrowLeft /></button>
         <h2>Tokens afetivos</h2>
       </div>
 
